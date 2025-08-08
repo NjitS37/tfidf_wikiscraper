@@ -2,7 +2,7 @@
 
 ########################################################################################
 #
-# Name: TF-IDF-Wikiscraper
+# Name: tfidf_wikiscraper
 #
 # tfidf_wikiscraper.py
 #
@@ -204,4 +204,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
