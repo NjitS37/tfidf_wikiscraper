@@ -1,7 +1,7 @@
 # TF-IDF-Wikiscraper
 This command-line Python tool scrapes English or Dutch Wikipedia articles for content relevant to a specific topic. It uses either a single starting article URL, or a list of main article URLs provided in a `.txt` file. This code needs an active internet connection to access Wikipedia.
 The script collects all hyperlinks within the main articles, then analyzes the content of those articles to extract the most relevant terms. 
-The output consists of ranked terms based on the TF-IDF (Term Frequency-Inverse Document Frequency) across all articles. The length of the wordlist and a range of `n-grams` can be specified.
+The output consists of ranked terms based on the TF-IDF (Term Frequency-Inverse Document Frequency) across all articles.
 
 The following Python packages are used in this code:
 - `argparse` (for running the code from command line)
